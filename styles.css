@@ -313,7 +313,7 @@ input, select, textarea { font-family: inherit; }
 .hero-subtitle {
   font-size: clamp(1rem, 2vw, 1.2rem);
   color: rgba(255,255,255,0.72);
-  max-width: 520px;
+  max-width: 640px;
   margin-bottom: 16px;
   line-height: 1.7;
 }
