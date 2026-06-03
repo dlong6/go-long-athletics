@@ -388,14 +388,19 @@ input, select, textarea { font-family: inherit; }
   background: var(--white);
   padding-top: 48px;
 }
+.about-header {
+  text-align: center;
+  margin-bottom: 40px;
+  width: 100%;
+}
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1.4fr;
   gap: 72px;
-  align-items: center;
+  align-items: start;
 }
-.about-content .section-eyebrow { text-align: left; }
-.about-content .section-title { text-align: left; }
+.about-content .section-eyebrow { }
+.about-content .section-title { }
 .about-body {
   color: var(--gray-600);
   margin-bottom: 20px;
