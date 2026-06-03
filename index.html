@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Go Long Athletics | Elite QB &amp; Pitcher Coaching</title>
+  <meta name="description" content="Go Long Athletics provides elite quarterback and pitcher coaching. Train with the best. Book your session today." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════ NAVIGATION ═══════════════════════════ -->
+  <header id="site-header">
+    <nav class="nav-container">
+      <a href="#home" class="nav-logo">
+        <img src="GLA_logo.png" alt="Go Long Athletics" class="nav-logo-img" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="qb.html">QB</a></li>
+        <li><a href="pitcher.html">Pitcher</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Contact</a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="nav-mobile-menu" id="mobile-menu">
+      <a href="qb.html" class="mobile-link">QB</a>
+      <a href="pitcher.html" class="mobile-link">Pitcher</a>
+      <a href="resources.html" class="mobile-link">Resources</a>
+      <a href="#contact" class="mobile-link mobile-cta">Contact</a>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title">Increase <span class="gold">ABILITY</span><br />without sacrificing <span class="gold">AVAILABILITY.</span></h1>
+        <p class="hero-subtitle">We help athletes safely increase their velo and accuracy by teaching the following concepts:</p>
+        <ul class="hero-bullets">
+          <li><span>Hip-shoulder dissociation: <span class="gold"><em>the secret to "How does Mahomes do that?"</em></span></span></li>
+          <li><span>Increased range of motion: <span class="gold"><em>flexibility accommodates both strength and health</em></span></span></li>
+          <li><span>Efficient footwork patterns: <span class="gold"><em>throw with your legs, guide with your arm</em></span></span></li>
+          <li><span>Use of modern technologies: <span class="gold"><em>film analysis, radar, drone, portable red-light therapy</em></span></span></li>
+        </ul>
+        <div class="hero-actions">
+          <!-- QB and Pitcher pages coming soon
+          <a href="qb.html" class="btn btn-outline">QB</a>
+          <a href="pitcher.html" class="btn btn-outline">Pitcher</a>
+          -->
+          <a href="#contact" class="btn btn-primary">Contact Now</a>
+        </div>
+        <div class="hero-badges">
+          <div class="badge"><span class="badge-num">100+</span><span class="badge-label">Athletes Trained</span></div>
+          <div class="badge-divider"></div>
+          <div class="badge"><span class="badge-num">7+</span><span class="badge-label">Years Coaching</span></div>
+          <div class="badge-divider"></div>
+          <div class="badge"><span class="badge-num">19+</span><span class="badge-label">Years QB/P Exp.</span></div>
+        </div>
+      </div>
+      <div class="hero-carousel-col">
+      <div class="hero-carousel-wrap">
+        <div class="carousel-track" id="hero-carousel-track">
+          <div class="carousel-slide active">
+            <img src="photos/athletes/rodgers.webp" alt="Aaron Rodgers throwing" class="hero-carousel-img" />
+          </div>
+          <div class="carousel-slide">
+            <img src="photos/athletes/mahomes.avif" alt="Patrick Mahomes throwing" class="hero-carousel-img" />
+          </div>
+          <div class="carousel-slide">
+            <img src="photos/athletes/brees.jpg" alt="Drew Brees throwing" class="hero-carousel-img" />
+          </div>
+          <div class="carousel-slide">
+            <img src="photos/athletes/chapman.png" alt="Aroldis Chapman pitching" class="hero-carousel-img" />
+          </div>
+          <div class="carousel-slide">
+            <img src="photos/athletes/maddux.jpg" alt="Greg Maddux pitching" class="hero-carousel-img" />
+          </div>
+          <div class="carousel-slide">
+            <img src="photos/athletes/trogers.png" alt="Tyler Rogers pitching" class="hero-carousel-img" />
+          </div>
+          <div class="carousel-slide">
+            <img src="photos/athletes/IMG_3676.jpeg" alt="Coach Long pitching" class="hero-carousel-img" />
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-btn" id="hero-carousel-prev" aria-label="Previous slide">&#8592;</button>
+          <div class="carousel-dots" id="hero-carousel-dots">
+            <span class="carousel-dot active" data-index="0"></span>
+            <span class="carousel-dot" data-index="1"></span>
+            <span class="carousel-dot" data-index="2"></span>
+            <span class="carousel-dot" data-index="3"></span>
+            <span class="carousel-dot" data-index="4"></span>
+            <span class="carousel-dot" data-index="5"></span>
+            <span class="carousel-dot" data-index="6"></span>
+          </div>
+          <button class="carousel-btn" id="hero-carousel-next" aria-label="Next slide">&#8594;</button>
+        </div>
+      </div>
+      <p class="hero-carousel-caption" id="hero-carousel-caption">Aaron Rodgers</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-carousel" id="about-carousel">
+          <p class="about-carousel-caption" id="about-carousel-caption">Pocket Radar, for velocity tracking</p>
+          <div class="carousel-track" id="carousel-track">
+            <div class="carousel-slide active">
+              <img src="photos/tech/radar.jpg" alt="Pocket Radar" class="carousel-slide-img" />
+            </div>
+            <div class="carousel-slide">
+              <img src="photos/tech/drone.jpg" alt="Drone" class="carousel-slide-img" />
+            </div>
+            <div class="carousel-slide">
+              <img src="photos/tech/lumebox.webp" alt="Lumebox red light therapy" class="carousel-slide-img" />
+            </div>
+            <div class="carousel-slide">
+              <img src="photos/tech/jbands.avif" alt="J-Bands" class="carousel-slide-img" />
+            </div>
+            <div class="carousel-slide">
+              <img src="photos/tech/shouldertube.png" alt="Shoulder tube" class="carousel-slide-img" />
+            </div>
+            <div class="carousel-slide">
+              <img src="photos/tech/psoas.jpeg" alt="Psoas stretch" class="carousel-slide-img" />
+            </div>
+          </div>
+          <div class="carousel-controls">
+            <button class="carousel-btn" id="carousel-prev" aria-label="Previous slide">&#8592;</button>
+            <div class="carousel-dots" id="carousel-dots">
+              <span class="carousel-dot active" data-index="0"></span>
+              <span class="carousel-dot" data-index="1"></span>
+              <span class="carousel-dot" data-index="2"></span>
+              <span class="carousel-dot" data-index="3"></span>
+              <span class="carousel-dot" data-index="4"></span>
+              <span class="carousel-dot" data-index="5"></span>
+            </div>
+            <button class="carousel-btn" id="carousel-next" aria-label="Next slide">&#8594;</button>
+          </div>
+        </div>
+        <div class="about-content">
+          <p class="section-eyebrow">About Go Long Athletics</p>
+          <h2 class="section-title">Want velocity and accuracy?<br /><span class="gold">Work flexibility and mechanics!</span></h2>
+          <p class="about-body">At Go Long Athletics, we specialize in helping quarterbacks and pitchers develop biomechanically-sound throwing techniques.</p>
+          <p class="about-body">We focus on hip mobility, shoulder rotation, release point, extension, and developing a strong foundation in the legs. Putting these techniques together allows quarterbacks and pitchers to throw harder, with increased accuracy, and lower arm stress.</p>
+          <p class="about-body">Putting these techniques together allows quarterbacks and pitchers to throw harder, with increased accuracy, and lower arm stress.</p>
+          <p class="about-body">As a coach, I'm always looking to grow by implementing new and helpful technologies into my programs. Check out the photo carousel to the left for info on the tech we use.</p>
+          <div class="about-pillars">
+            <div class="pillar">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              </div>
+              <div>
+                <strong>Film To Field</strong>
+                <p>On-site film analysis and mechanical correction</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+              </div>
+              <div>
+                <strong>Build a Routine</strong>
+                <p>Personalized stretching and strengthening routines</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <div>
+                <strong>Solidify Your Skills</strong>
+                <p>Let it rip during tailored drills and exercises!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ COACH ═══════════════════════════ -->
+  <section id="coach" class="section coach-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Meet the Coach</p>
+        <h2 class="section-title">About <span class="gold">Coach Long</span></h2>
+      </div>
+      <div class="coach-grid">
+        <div class="coach-photo-wrap">
+          <img src="photos/me:live/coach-sideline.jpg" alt="Coach Devin Long" class="coach-photo" />
+          <p class="coach-photo-caption">Coach Long on the sideline, 2025</p>
+        </div>
+        <div class="coach-bio">
+          <p class="about-body">Hey, I'm Coach Devin Long, and I started Go Long Athletics in 2026. At GLA, we are committed to helping young athletes reach their throwing goals by teaching healthy, repeatable motions. Young athletes are undergoing arm surgeries at an alarming rate these days, especially pitchers, and I'd like to do what I can to help reverse that trend.</p>
+          <p class="about-body">To minimize injury risk, my approach emphasizes flexibility and efficiency, instead of max effort. To attain longevity, an athlete's power and accuracy must come from the ground up and the body working as a whole, not just their arm. We do not ever throw through pain; we listen to our arms and adjust our training accordingly. Pain is either a symptom of fatigue or biomechanical inefficiency, both of which should be addressed immediately and thoughtfully.</p>
+          <p class="about-body">Although my playing days are over, I still throw every day, either for recreational sports, coaching sessions, with my friends, or playing fetch with my dog. I use the techniques I teach every day, and I actually throw harder now than I did when I was 21.  It's strange to say, but I am living proof that this approach works well, and works over a long period of time. </p>
+          <p class="about-body">Despite the high mileage on this old wing, though, I thankfully have yet to suffer any kind of arm injury related to throwing. As I step away from coaching high school, I'd like to pass the strategies that afforded me this good fortune on to any athlete who is willing to listen and work hard. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Logo Divider ─── -->
+  <div class="logo-divider">
+    <img src="GLA_logo.png" alt="Go Long Athletics" class="logo-divider-img" />
+  </div>
+
+  <!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="section-eyebrow">Get in Touch</p>
+          <h2 class="section-title">Questions?<br /><span class="gold">Ask Away.</span></h2>
+          <p class="contact-body">Feel free to ask about programs, pricing, availability, or whatever else. I will respond as soon as I can, usually within 1-2 days.</p>
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="detail-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:golongathletics@gmail.com">golongathletics@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="detail-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <strong>Location</strong>
+                <span>Spokane/CDA area, also available virtually</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrap">
+          <form
+            id="contact-form"
+            action="https://formspree.io/f/YOUR_CONTACT_FORM_ID"
+            method="POST"
+            class="contact-form"
+            novalidate
+          >
+            <input type="hidden" name="_subject" value="Website Inquiry — Go Long Athletics" />
+            <div class="form-row">
+              <div class="form-group">
+                <label for="c-name">Name *</label>
+                <input type="text" id="c-name" name="name" required placeholder="Your name" />
+              </div>
+              <div class="form-group">
+                <label for="c-email">Email *</label>
+                <input type="email" id="c-email" name="email" required placeholder="your@email.com" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="c-subject">Subject</label>
+              <input type="text" id="c-subject" name="subject" placeholder="How do you want to improve?" />
+            </div>
+            <div class="form-group">
+              <label for="c-message">Message *</label>
+              <textarea id="c-message" name="message" rows="5" required placeholder="Please include your name, grade level, amount of experience, and how you are looking to improve."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <div class="form-success" id="contact-success" style="display:none;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <p><strong>Message sent!</strong> Thank you.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-links-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About GLA</a></li>
+            <li><a href="#coach">Coach Long</a></li>
+            <li><a href="qb.html">QB Training</a></li>
+            <li><a href="pitcher.html">Pitcher Training</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:golongathletics@gmail.com">golongathletics@gmail.com</a></li>
+          </ul>
+          <div class="footer-brand">
+            <a href="#home" class="footer-logo">
+              <img src="GLA_logo.png" alt="Go Long Athletics" class="footer-logo-img" />
+            </a>
+            <p>Thanks for visiting this website, I made it by using <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">VSCode</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="footer-year"></span> Go Long Athletics. All rights reserved.</p>
+        <p class="footer-tagline">Throw Hard. Stay Healthy. Go Long.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
