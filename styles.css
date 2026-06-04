@@ -113,7 +113,7 @@ input, select, textarea { font-family: inherit; }
    NAVIGATION
    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 #site-header {
-  display: none; /* TODO: re-enable before launch */
+  display: none;
   position: fixed;
   inset: 0 0 auto 0;
   z-index: 1000;
@@ -131,6 +131,7 @@ input, select, textarea { font-family: inherit; }
   height: 70px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 40px;
 }
 .nav-logo {
@@ -147,7 +148,6 @@ input, select, textarea { font-family: inherit; }
 .nav-links {
   display: flex;
   gap: 32px;
-  margin-left: auto;
 }
 .nav-links a {
   font-family: var(--font-head);

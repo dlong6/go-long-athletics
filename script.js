@@ -14,17 +14,19 @@ window.addEventListener('scroll', () => {
 const hamburger  = document.getElementById('hamburger');
 const mobileMenu = document.getElementById('mobile-menu');
 
-hamburger.addEventListener('click', () => {
-  const isOpen = mobileMenu.classList.toggle('open');
-  hamburger.setAttribute('aria-expanded', String(isOpen));
-});
-
-mobileMenu.querySelectorAll('.mobile-link').forEach(link => {
-  link.addEventListener('click', () => {
-    mobileMenu.classList.remove('open');
-    hamburger.setAttribute('aria-expanded', 'false');
+if (hamburger && mobileMenu) {
+  hamburger.addEventListener('click', () => {
+    const isOpen = mobileMenu.classList.toggle('open');
+    hamburger.setAttribute('aria-expanded', String(isOpen));
   });
-});
+
+  mobileMenu.querySelectorAll('.mobile-link').forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+    });
+  });
+}
 
 // ── Smooth anchor scroll (accounts for fixed header height) ─
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -116,7 +118,6 @@ if (carouselTrack) {
   const aboutCaptionEl = document.getElementById('about-carousel-caption');
   const aboutCaptions = [
     'Pocket Radar, for velocity tracking',
-    'Drone, for aerial film analysis',
     'Lumebox, for portable red-light therapy',
     'J-Bands, for strength and flexibility',
     'Shoulder tube, for stability',
