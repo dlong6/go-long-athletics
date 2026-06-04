@@ -164,11 +164,13 @@ if (contactForm) contactForm.addEventListener('submit', async e => {
   submitBtn.textContent = 'Sending…';
 
   try {
-    const data = new FormData(contactForm);
+    const formData = new FormData(contactForm);
+    const data = {};
+    formData.forEach((val, key) => { data[key] = val; });
     const res  = await fetch(contactForm.getAttribute('action'), {
       method: 'POST',
-      body: data,
-      headers: { 'Accept': 'application/json' },
+      body: JSON.stringify(data),
+      headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
     });
 
     if (res.ok) {
