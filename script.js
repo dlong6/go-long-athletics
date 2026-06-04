@@ -163,18 +163,9 @@ if (contactForm) contactForm.addEventListener('submit', async e => {
   submitBtn.disabled    = true;
   submitBtn.textContent = 'Sending…';
 
-  const action = contactForm.getAttribute('action');
-
-  if (action.includes('YOUR_CONTACT_FORM_ID')) {
-    showDemoSuccess(contactForm, 'contact-success');
-    submitBtn.disabled    = false;
-    submitBtn.textContent = 'Send Message';
-    return;
-  }
-
   try {
     const data = new FormData(contactForm);
-    const res  = await fetch(action, {
+    const res  = await fetch(contactForm.getAttribute('action'), {
       method: 'POST',
       body: data,
       headers: { 'Accept': 'application/json' },
