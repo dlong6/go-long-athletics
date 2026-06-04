@@ -71,9 +71,9 @@ if (heroCarouselTrack) {
     'Patrick Mahomes',
     'Drew Brees',
     'Aroldis Chapman',
+    'Coach Long',
     'Greg Maddux',
     'Tyler Rogers',
-    'Coach Long',
   ];
   let heroCurrent = 0;
 
