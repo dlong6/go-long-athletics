@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Resources | Go Long Athletics</title>
-  <meta name="description" content="Articles, drills, and insights from Coach Long on QB mechanics, pitching biomechanics, and arm health. Free knowledge for any athlete who wants to get better." />
+  <meta name="description" content="Resources and updates from Go Long Athletics." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -15,137 +15,193 @@
   <!-- ═══════════════════════════ NAVIGATION ═══════════════════════════ -->
   <header id="site-header">
     <nav class="nav-container">
-      <a href="index.html" class="nav-logo">
-        <img src="GLA_logo.png" alt="Go Long Athletics" class="nav-logo-img" />
-      </a>
+      <div class="nav-brand">
+        <a href="index.html" class="nav-logo">
+          <img src="photos/diagrams/GLAlogonobackground.png" alt="Go Long Athletics" class="nav-logo-img" />
+        </a>
+        <p class="nav-tagline">QB and Pitcher Training | Spokane/CDA</p>
+      </div>
       <ul class="nav-links">
-        <li><a href="qb.html">QB</a></li>
-        <li><a href="pitcher.html">Pitcher</a></li>
-        <li><a href="resources.html" class="active">Resources</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
       </ul>
-      <a href="index.html#contact" class="nav-cta">Contact</a>
-      <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+      <a href="resources.html" class="nav-cta active">Resources</a>
     </nav>
-    <div class="nav-mobile-menu" id="mobile-menu">
-      <a href="qb.html" class="mobile-link">QB</a>
-      <a href="pitcher.html" class="mobile-link">Pitcher</a>
-      <a href="resources.html" class="mobile-link">Resources</a>
-      <a href="index.html#contact" class="mobile-link mobile-cta">Contact</a>
-    </div>
   </header>
 
-  <!-- ═══════════════════════════ PAGE HERO ═══════════════════════════ -->
-  <section class="page-hero">
+  <!-- ═══════════════════════════ RESOURCES CONTENT ═══════════════════════════ -->
+  <section class="page-hero resource-hero">
     <div class="hero-bg"></div>
     <div class="hero-overlay"></div>
     <div class="page-hero-content">
-      <p class="section-eyebrow">From Coach Long</p>
-      <h1 class="page-hero-title">Know Your Body.<br /><span class="gold">Know Your Game.</span></h1>
-      <p class="page-hero-subtitle">Articles, drills, and insights on QB mechanics, pitching biomechanics, and arm health. Free for any athlete who wants to get better.</p>
+      <h1 class="page-hero-title">Additional Resources</h1>
+      <p class="page-hero-subtitle">Check the table below for helpful links.</p>
+      <div class="hero-actions">
+        <a id="resource-book-session-btn" href="index.html#contact" class="btn btn-primary hero-contact-btn">BOOK SESSION NOW</a>
+      </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════ QB RESOURCES ═══════════════════════════ -->
   <section class="section resource-section">
     <div class="container">
-      <div class="section-header">
-        <p class="section-eyebrow">Quarterback</p>
-        <h2 class="section-title">QB <span class="gold">Articles &amp; Drills</span></h2>
-      </div>
-      <div class="resource-grid">
-        <div class="resource-card">
-          <span class="resource-badge qb">QB</span>
-          <h3>Why Mahomes Can Throw Off-Platform: Hip-Shoulder Disassociation Explained</h3>
-          <p>Patrick Mahomes makes throws that shouldn't work. Off his back foot, sidearm, across his body — and they're on target. This isn't magic, it's mechanics. Here's the biomechanical reason behind it and how to develop it yourself.</p>
-          <a href="#" class="resource-card-link">Read Article</a>
-        </div>
-        <div class="resource-card">
-          <span class="resource-badge qb">QB</span>
-          <h3>The 5 Footwork Drills Every QB Needs in Their Routine</h3>
-          <p>Your feet determine your arm. If your platform is off, no amount of arm strength will save the throw. These five drills — done correctly and consistently — will transform how you move in the pocket.</p>
-          <a href="#" class="resource-card-link">Read Article</a>
-        </div>
-        <div class="resource-card">
-          <span class="resource-badge qb">QB</span>
-          <h3>Release Point: The Most Overlooked Variable in Quarterback Accuracy</h3>
-          <p>Coaches obsess over arm strength and footwork, but release point consistency might matter more than both. Learn how to identify where your release is inconsistent and the specific drill that fixes it faster than anything else.</p>
-          <a href="#" class="resource-card-link">Read Article</a>
-        </div>
-      </div>
-    </div>
-  </section>
+      <div class="resource-text-area">
+        <div class="resource-table-block">
+          <div class="resource-table-controls">
+            <label for="resource-search" class="resource-filter-label">Quick Search</label>
+            <input type="search" id="resource-search" class="resource-search-input" placeholder="Search links, notes, and keywords..." aria-label="Quick search resources" />
+          </div>
 
-  <!-- ═══════════════════════════ PITCHER RESOURCES ═══════════════════════════ -->
-  <section class="section resource-section">
-    <div class="container">
-      <div class="section-header">
-        <p class="section-eyebrow">Pitcher</p>
-        <h2 class="section-title">Pitching <span class="gold">Articles &amp; Drills</span></h2>
-      </div>
-      <div class="resource-grid">
-        <div class="resource-card">
-          <span class="resource-badge pitcher">Pitcher</span>
-          <h3>The Real Cause of Most Pitcher Injuries (And It's Not What You Think)</h3>
-          <p>Conventional wisdom blames pitch count and overuse. While those are factors, the deeper issue is a mechanical one — and it shows up in film long before it shows up in an MRI. Here's what to look for in your own delivery.</p>
-          <a href="#" class="resource-card-link">Read Article</a>
-        </div>
-        <div class="resource-card">
-          <span class="resource-badge pitcher">Pitcher</span>
-          <h3>Spin Rate vs. Velocity: Which Should You Train First?</h3>
-          <p>Every pitcher wants both. But there's a sequencing argument to be made — and getting it wrong can stall your development for months. Coach Long breaks down the case for velocity-first development and when to shift the focus to spin.</p>
-          <a href="#" class="resource-card-link">Read Article</a>
-        </div>
-        <div class="resource-card">
-          <span class="resource-badge pitcher">Pitcher</span>
-          <h3>A Stretching Protocol for Arm Health That Actually Works</h3>
-          <p>Most pitcher stretching routines are an afterthought. This one is built around what the shoulder and elbow actually need to sustain a high-intensity throwing motion — and it takes less than 10 minutes before every session.</p>
-          <a href="#" class="resource-card-link">Read Article</a>
-        </div>
-      </div>
-    </div>
-  </section>
+          <div class="resource-filter-modal" id="sport-filter-modal" role="dialog" aria-modal="true" aria-labelledby="sport-filter-title" hidden>
+            <div class="resource-filter-modal-card">
+              <h3 id="sport-filter-title">Filter By Sport</h3>
+              <label class="resource-checkbox-row">
+                <input type="checkbox" class="sport-filter-checkbox" value="Football" checked />
+                <span>Football</span>
+              </label>
+              <label class="resource-checkbox-row">
+                <input type="checkbox" class="sport-filter-checkbox" value="Baseball" checked />
+                <span>Baseball</span>
+              </label>
+              <label class="resource-checkbox-row">
+                <input type="checkbox" class="sport-filter-checkbox" value="General" checked />
+                <span>General</span>
+              </label>
+              <div class="resource-modal-actions">
+                <button type="button" class="resource-modal-btn resource-sport-filter-clear">Select All</button>
+                <button type="button" class="resource-modal-btn resource-modal-btn-primary resource-sport-filter-done">Done</button>
+              </div>
+            </div>
+          </div>
 
-  <!-- ═══════════════════════════ GENERAL RESOURCES ═══════════════════════════ -->
-  <section class="section resource-section">
-    <div class="container">
-      <div class="section-header">
-        <p class="section-eyebrow">General Arm Care</p>
-        <h2 class="section-title">For All <span class="gold">Throwing Athletes</span></h2>
-      </div>
-      <div class="resource-grid">
-        <div class="resource-card">
-          <span class="resource-badge general">General</span>
-          <h3>Why Flexibility is the Foundation of Throwing Velocity</h3>
-          <p>Most athletes train strength to gain velocity. But flexibility — specifically in the shoulder, hip, and thoracic spine — is what allows that strength to translate into a fast, efficient throw. You can't outwork a tight hip flexor.</p>
-          <a href="#" class="resource-card-link">Read Article</a>
-        </div>
-        <div class="resource-card">
-          <span class="resource-badge general">General</span>
-          <h3>How to Use Film Study to Fix Mechanical Issues Faster</h3>
-          <p>Throwing with intent and throwing with awareness are two different things. Learn a simple self-film framework that lets you spot your own mechanical patterns — even without a coach in the room — and turn observations into focused reps.</p>
-          <a href="#" class="resource-card-link">Read Article</a>
-        </div>
-        <div class="resource-card">
-          <span class="resource-badge general">General</span>
-          <h3>The Long Game: How Elite Arm Athletes Stay on the Field</h3>
-          <p>Career longevity in throwing sports comes down to one thing: staying healthy consistently. Coach Long shares the habits, mindset, and mechanical principles that separate athletes who perform for ten years from those who flame out after two.</p>
-          <a href="#" class="resource-card-link">Read Article</a>
-        </div>
-      </div>
-    </div>
-  </section>
+          <div class="resource-filter-modal" id="source-filter-modal" role="dialog" aria-modal="true" aria-labelledby="source-filter-title" hidden>
+            <div class="resource-filter-modal-card">
+              <h3 id="source-filter-title">Filter By Source</h3>
+              <label class="resource-checkbox-row">
+                <input type="checkbox" class="source-filter-checkbox" value="Internal" checked />
+                <span>Internal</span>
+              </label>
+              <label class="resource-checkbox-row">
+                <input type="checkbox" class="source-filter-checkbox" value="External" checked />
+                <span>External</span>
+              </label>
+              <div class="resource-modal-actions">
+                <button type="button" class="resource-modal-btn resource-source-filter-clear">Select All</button>
+                <button type="button" class="resource-modal-btn resource-modal-btn-primary resource-source-filter-done">Done</button>
+              </div>
+            </div>
+          </div>
 
-  <!-- ═══════════════════════════ CTA ═══════════════════════════ -->
-  <section class="section cta-section">
-    <div class="container">
-      <div class="cta-band">
-        <div class="cta-text">
-          <h2 class="cta-title">Want personalized coaching?</h2>
-          <p class="cta-sub">Reading about mechanics is step one. Training them is step two.</p>
+          <div class="resource-filter-modal" id="keyword-filter-modal" role="dialog" aria-modal="true" aria-labelledby="keyword-filter-title" hidden>
+            <div class="resource-filter-modal-card">
+              <h3 id="keyword-filter-title">Filter By Keyword</h3>
+              <div class="resource-keyword-filter-options"></div>
+              <div class="resource-modal-actions">
+                <button type="button" class="resource-modal-btn resource-keyword-filter-clear">Select All</button>
+                <button type="button" class="resource-modal-btn resource-modal-btn-primary resource-keyword-filter-done">Done</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="resource-table-wrap">
+            <table class="resource-table" id="resource-table">
+              <thead>
+                <tr>
+                  <th scope="col" class="resource-sortable-header">
+                    <button type="button" class="resource-sort-header" data-sort-key="date" aria-label="Sort by date added">
+                      <span>Date Added</span>
+                      <span class="sort-indicator" aria-hidden="true"></span>
+                    </button>
+                  </th>
+                  <th scope="col" class="resource-filter-header">
+                    <div class="resource-header-controls">
+                      <button type="button" class="resource-sort-header" data-sort-key="sport" aria-label="Sort by sport">
+                        <span>Sport</span>
+                        <span class="sort-indicator" aria-hidden="true"></span>
+                      </button>
+                      <button type="button" class="resource-filter-trigger resource-sport-filter-trigger" aria-label="Open sport filter" aria-expanded="false" title="Filter sport">
+                        <span class="filter-indicator" aria-hidden="true"></span>
+                      </button>
+                    </div>
+                  </th>
+                  <th scope="col">Link</th>
+                  <th scope="col">Notes</th>
+                  <th scope="col" class="resource-filter-header">
+                    <div class="resource-header-controls">
+                      <button type="button" class="resource-sort-header" data-sort-key="keywords" aria-label="Sort by keywords">
+                        <span>Keywords</span>
+                        <span class="sort-indicator" aria-hidden="true"></span>
+                      </button>
+                      <button type="button" class="resource-filter-trigger resource-keyword-filter-trigger" aria-label="Open keyword filter" aria-expanded="false" title="Filter keywords">
+                        <span class="filter-indicator" aria-hidden="true"></span>
+                      </button>
+                    </div>
+                  </th>
+                  <th scope="col" class="resource-filter-header">
+                    <div class="resource-header-controls">
+                      <button type="button" class="resource-sort-header" data-sort-key="source" aria-label="Sort by source">
+                        <span>Source</span>
+                        <span class="sort-indicator" aria-hidden="true"></span>
+                      </button>
+                      <button type="button" class="resource-filter-trigger resource-source-filter-trigger" aria-label="Open source filter" aria-expanded="false" title="Filter source">
+                        <span class="filter-indicator" aria-hidden="true"></span>
+                      </button>
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr data-sport="Football" data-source="Internal" data-date="2026-07-12" data-keywords="YouTube, QB, Pitcher">
+                  <td>2026-07-12</td>
+                  <td>Football</td>
+                  <td><a href="https://www.youtube.com/@GoLongAthletics" target="_blank" rel="noopener noreferrer">Go Long Athletics YouTube</a></td>
+                  <td>Proprietary YouTube channel for Go Long Athletics.</td>
+                  <td>YouTube, QB, Pitcher</td>
+                  <td>Internal</td>
+                </tr>
+                <tr data-sport="Baseball" data-source="External" data-date="2026-07-16" data-keywords="Company">
+                  <td>2026-07-16</td>
+                  <td>Baseball</td>
+                  <td><a href="https://www.drivelinebaseball.com/" target="_blank" rel="noopener noreferrer">Driveline</a></td>
+                  <td>World famous pitching development operation, based just outside of Seattle.</td>
+                  <td>Company</td>
+                  <td>External</td>
+                </tr>
+                <tr data-sport="General" data-source="External" data-date="2026-07-22" data-keywords="Product">
+                  <td>2026-07-22</td>
+                  <td>General</td>
+                  <td><a href="https://www.pocketradar.com/" target="_blank" rel="noopener noreferrer">Pocket Radar</a></td>
+                  <td>Website for the Pocket Radar velo-tracking device.</td>
+                  <td>Product</td>
+                  <td>External</td>
+                </tr>
+                <tr data-sport="Football" data-source="External" data-date="2026-07-27" data-keywords="YouTube, QB">
+                  <td>2026-07-27</td>
+                  <td>Football</td>
+                  <td><a href="https://www.youtube.com/@dimes." target="_blank" rel="noopener noreferrer">Dimes YouTube</a></td>
+                  <td>Mechanical breakdowns and QB training. Tacoma-based!</td>
+                  <td>YouTube, QB</td>
+                  <td>External</td>
+                </tr>
+                  <tr data-sport="Football" data-source="External" data-date="2026-07-27" data-keywords="YouTube, QB">
+                  <td>2026-07-27</td>
+                  <td>Football</td>
+                  <td><a href="https://www.youtube.com/watch?v=lv5p2Xqkxyk" target="_blank" rel="noopener noreferrer">Tom Brady Throwing Tutorial</a></td>
+                  <td>Mechanics and wisdom from Tom Brady.</td>
+                  <td>YouTube, QB</td>
+                  <td>External</td>
+                </tr>
+                  <tr data-sport="Football" data-source="External" data-date="2026-07-27" data-keywords="YouTube, QB">
+                  <td>2026-07-27</td>
+                  <td>Football</td>
+                  <td><a href="https://www.youtube.com/@firstdowntraining" target="_blank" rel="noopener noreferrer">First Down Training YouTube</a></td>
+                  <td>Mechanics and educational short videos.</td>
+                  <td>YouTube, QB</td>
+                  <td>External</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-        <a href="index.html#contact" class="btn btn-primary">Contact Now</a>
       </div>
     </div>
   </section>
@@ -154,19 +210,10 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="index.html" class="footer-logo">
-            <img src="GLA_logo.png" alt="Go Long Athletics" class="footer-logo-img" />
-          </a>
-          <p>Building elite arm athletes from youth to college. Every rep. Every session.</p>
-        </div>
         <div class="footer-links-col">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="index.html#about">About GLA</a></li>
-            <li><a href="index.html#coach">Coach Long</a></li>
-            <li><a href="qb.html">QB Training</a></li>
-            <li><a href="pitcher.html">Pitcher Training</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="resources.html">Resources</a></li>
             <li><a href="index.html#contact">Contact</a></li>
           </ul>
@@ -174,13 +221,19 @@
         <div class="footer-links-col">
           <h4>Contact</h4>
           <ul>
-            <li><a href="mailto:coach@thelongarmacademy.com">coach@thelongarmacademy.com</a></li>
+            <li><a href="mailto:golongathletics@gmail.com">golongathletics@gmail.com</a></li>
           </ul>
+          <div class="footer-brand">
+            <a href="index.html" class="footer-logo">
+              <img src="photos/diagrams/GLAlogonobackground.png" alt="Go Long Athletics" class="footer-logo-img" width="56" height="56" />
+            </a>
+            <p>Thanks for visiting this website, I made it with help from <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">VSCode</a></p>
+          </div>
         </div>
       </div>
       <div class="footer-bottom">
         <p>&copy; <span id="footer-year"></span> Go Long Athletics. All rights reserved.</p>
-        <p class="footer-tagline">Train Hard. Throw Far. Go Long.</p>
+        <p class="footer-tagline">. Throw Smart. Stay Healthy. Go Long.</p>
       </div>
     </div>
   </footer>
