@@ -272,7 +272,7 @@ input, select, textarea { font-family: inherit; }
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('photos/diagrams/GLAlogonobackground.png');
+  background-image: url('photos/diagrams/GLAlogonobackground.webp');
   background-repeat: no-repeat;
   background-position: center 56%;
   background-size: min(820px, 72vw);
@@ -622,7 +622,7 @@ input, select, textarea { font-family: inherit; }
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('photos/diagrams/GLAlogonobackground.png');
+  background-image: url('photos/diagrams/GLAlogonobackground.webp');
   background-repeat: no-repeat;
   background-size: min(700px, 65vw);
   background-position: center;
@@ -689,7 +689,7 @@ input, select, textarea { font-family: inherit; }
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('photos/diagrams/GLAlogonobackground.png');
+  background-image: url('photos/diagrams/GLAlogonobackground.webp');
   background-repeat: no-repeat;
   background-size: min(620px, 58vw);
   background-position: center;
@@ -837,7 +837,7 @@ input, select, textarea { font-family: inherit; }
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('photos/diagrams/GLAlogonobackground.png');
+  background-image: url('photos/diagrams/GLAlogonobackground.webp');
   background-repeat: no-repeat;
   background-size: min(720px, 60vw);
   background-position: center 48%;
@@ -853,7 +853,7 @@ input, select, textarea { font-family: inherit; }
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('photos/diagrams/GLAlogonobackground.png');
+  background-image: url('photos/diagrams/GLAlogonobackground.webp');
   background-repeat: no-repeat;
   background-size: min(760px, 64vw);
   background-position: center;
@@ -1054,7 +1054,7 @@ input, select, textarea { font-family: inherit; }
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('photos/diagrams/GLAlogonobackground.png');
+  background-image: url('photos/diagrams/GLAlogonobackground.webp');
   background-repeat: no-repeat;
   background-size: min(660px, 60vw);
   background-position: center;
