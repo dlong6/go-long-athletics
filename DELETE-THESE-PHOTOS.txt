@@ -1,0 +1,19 @@
+Delete these 10 files from photos/athletes/ in your repo.
+They were only used by the old hero carousel.
+
+  brees.jpg
+  brees.webp
+  chapman.png
+  chapman.webp
+  maddux.jpg
+  mahomes.avif
+  mahomes2.webp
+  rodgers.webp
+  trogers.png
+  trogers.webp
+
+Or run this from the top folder of your repo:
+
+  git rm photos/athletes/{brees.jpg,brees.webp,chapman.png,chapman.webp,maddux.jpg,mahomes.avif,mahomes2.webp,rodgers.webp,trogers.png,trogers.webp}
+
+Keep IMG_3676.webp (the new hero photo) and IMG_3676.jpeg (your original).
